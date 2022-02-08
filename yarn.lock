@@ -4148,7 +4148,7 @@ fs-extra@^8.1.0:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^9.0.0, fs-extra@^9.0.1:
+fs-extra@^9.0.1:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
@@ -7851,13 +7851,6 @@ serverless-offline@^5.10.1:
     trim-newlines "^3.0.0"
     update-notifier "^3.0.1"
     velocityjs "^1.1.5"
-
-serverless-plugin-warmup@^4.7.0-rc.1:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/serverless-plugin-warmup/-/serverless-plugin-warmup-4.9.0.tgz#4617a10e2b95d166647abab557b55aea9e5ae0ef"
-  integrity sha512-o6u0Wovyjm1tJNsa38oHOKEjmjBdhie8sCIlCCUAtHZza7L7y9WgtHTFqK6QGTl7O6sbw98vB8z4pNsSQGH6YA==
-  dependencies:
-    fs-extra "^9.0.0"
 
 serverless-prune-plugin@^1.4.1:
   version "1.4.3"
