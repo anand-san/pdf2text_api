@@ -29,6 +29,10 @@ custom:
   prune:
     automatic: true
     number: 5 # Number of versions to keep
+  apigwBinary:
+    types: #list of mime-types
+      - 'application/pdf'
+      - 'multipart/form-data'
 
 functions:
   uploadPdf:
