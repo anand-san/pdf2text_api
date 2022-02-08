@@ -30,7 +30,7 @@ custom:
 
 functions:
   uploadPdf:
-    handler: src/uploadPdf.default
+    handler: src/uploadPdf/index.handler
     events:
       - http:
           path: uploadPdf
