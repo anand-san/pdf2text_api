@@ -31,12 +31,12 @@ custom:
     number: 5 # Number of versions to keep
 
 functions:
-  hello:
-    handler: src/hello.default
+  uploadPdf:
+    handler: src/uploadPdf.default
     events:
       - http:
-          path: hello
-          method: get
+          path: uploadPdf
+          method: post
 
 plugins:
   - serverless-webpack
