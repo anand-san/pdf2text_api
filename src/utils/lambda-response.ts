@@ -20,7 +20,7 @@ export interface Response {
 function lambdaResponse({
   json,
   statusCode,
-  allowCORS = false,
+  allowCORS = true,
 }: ResponseOptions): Response {
   const response: Response = {
     statusCode,
