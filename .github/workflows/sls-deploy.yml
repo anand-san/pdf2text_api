@@ -1,21 +1,23 @@
-name: Deploy master branch
+name: Deploy API
 
 on: [push]
 
 jobs:
   deploy:
-    name: deploy api
+    name: deploy
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [14.x, 16.x]
     steps:
       - uses: actions/checkout@v2
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
+      - run: yarn install --frozen-lockfile
+      - run: yarn test
       - name: serverless deploy
         uses: serverless/github-action@v1
         with:
