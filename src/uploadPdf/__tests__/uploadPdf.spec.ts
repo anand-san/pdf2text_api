@@ -1,5 +1,5 @@
 import { getFileArrayBuffer, handler } from '../uploadPdf';
-import { sampleEvent } from './samplePayload';
+import { sampleEvent } from '../../../fixtures/samplePayload';
 
 describe('uploadPdf', () => {
   describe('#getFileArrayBuffer', () => {
