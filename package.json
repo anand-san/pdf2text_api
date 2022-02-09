@@ -54,10 +54,8 @@
   },
   "dependencies": {
     "@types/pdf-parse": "^1.1.1",
-    "@types/supertest": "^2.0.11",
     "aws-multipart-parser": "^0.2.1",
     "pdf-parse": "^1.1.1",
-    "serverless-apigw-binary": "^0.4.4",
-    "supertest": "^6.2.2"
+    "serverless-apigw-binary": "^0.4.4"
   }
 }
